@@ -1,5 +1,5 @@
-import moment from "moment";
-import { navItems } from "../utils/constants";
+// import moment from "moment";
+import { navItems } from "../Utils/Constants";
 import { getStates } from "./SearchService";
 
 const getPathFromName = (name = "") => {

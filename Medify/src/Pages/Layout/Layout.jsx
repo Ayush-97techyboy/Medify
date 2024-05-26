@@ -1,12 +1,12 @@
 import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import MedNotice from "../../components/Notice/Notice";
-import MedNavbar from "../../components/navbar/MedNavbar";
+import MedNavbar from "../../components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "../Home/Home";
 import { getNavItems } from "../../Services/GenericService";
 import Hospitals from "../Hospitals/Hospitals";
-import MyBookings from "../my-bookings/MyBookings";
+import MyBookings from "../MyBookings/MyBookings";
 
 function Layout() {
   const [routes, setRoutes] = useState([]);

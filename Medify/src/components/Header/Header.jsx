@@ -1,7 +1,6 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
-import { colors, fonts } from "../../theme/variables";
-
+import { colors, fonts } from "../../Themes/Variables";
 function MedHeader({ title }) {
   return (
     <Box

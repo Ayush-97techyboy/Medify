@@ -1,10 +1,10 @@
 import { LocationOnOutlined, Search } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import MedAutocomplete from "../autocomplete/MedAutocomplete";
-import MedButton from "../button/MedButton";
-import { colors } from "../../theme/variables";
-import { getCities } from "../../services/searchService";
+import MedAutocomplete from "../AutoComplete/AutoComplete";
+import MedButton from "../Button/Button";
+import { colors } from "../../Themes/Variables";
+import { getCities } from "../../Services/SearchService";
 
 function MedSearch({ states = [], state, city, getValue, sx }) {
   const [cities, setCities] = useState([]);

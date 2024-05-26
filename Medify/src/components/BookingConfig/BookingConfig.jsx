@@ -1,3 +1,4 @@
+// import React from "react";
 import {
   Box,
   Button,
@@ -9,14 +10,16 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { colors } from "../../theme/variables";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import { bookingSlots } from "../../utils/constants";
+import { colors } from "../../Themes/Variables";
+// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css'; // Import Swiper styles
+import { Navigation } from "swiper-modules";
+import { bookingSlots } from "../../Utils/Constants";
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import { getFormattedFutureDates } from "../../services/genericService";
+// import "swiper-css";
+// import "swiper-css-navigation";
+import { getFormattedFutureDates } from "../../Services/GenericService";
 
 function MedBookingConfig({ getValue }) {
   const [selectedDate, selectDate] = useState(new Date());

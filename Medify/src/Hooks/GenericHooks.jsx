@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { getStates } from "../services/searchService";
+import { getStates } from "../Services/SearchService";
 
 export default function useGeneric() {
   const [states, setStates] = useState([]);

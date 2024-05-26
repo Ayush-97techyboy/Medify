@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { colors } from "../../theme/variables";
+import { colors } from "../../Themes/Variables";
 
 function MedNotice() {
   return (

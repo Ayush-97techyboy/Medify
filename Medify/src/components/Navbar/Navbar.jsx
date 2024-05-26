@@ -5,9 +5,9 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import { colors } from "../../theme/variables";
+import { colors } from "../../Themes/Variables";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import MedButton from "../button/MedButton";
+import MedButton from "../Button/Button";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function MedNavbar({ links }) {

@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { colors } from "../../theme/variables";
+import { colors } from "../../Themes/Variables";
 
 function MedCardContainer({ elevate = true, sx, children, ...attributes }) {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import MedHeroSection from "../../components/hero-section/MedHeroSection";
+import MedHeroSection from "../../components/HeroSection/HeroSection";
 import { Box, Container } from "@mui/material";
-import MedCardContainer from "../../components/card-container/MedCardContainer";
-import MedSearchCard from "../../components/search-card/MedSearchCard";
-import useGeneric from "../../hooks/genericHook";
+import MedCardContainer from "../../components/CardContainer/CardContainer";
+import MedSearchCard from "../../components/SearchCard/SearchCard";
+import useGeneric from "../../Hooks/GenericHooks";
 
 function Home() {
   const { states } = useGeneric();

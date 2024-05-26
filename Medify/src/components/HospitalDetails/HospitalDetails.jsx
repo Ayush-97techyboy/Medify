@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import MedCardContainer from "../card-container/MedCardContainer";
+import MedCardContainer from "../CardContainer/CardContainer";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import { Box, Button, Typography } from "@mui/material";
-import { colors } from "../../theme/variables";
-import MedButton from "../button/MedButton";
+import { colors } from "../../Themes/Variables";
+import MedButton from "../Button/Button";
 import { ThumbUp } from "@mui/icons-material";
-import hospitalLogo from "../../assets/hospital.png";
-import MedBookingConfig from "../booking-config/MedBookingConfig";
+import hospitalLogo from "../../Media/Hospital.png";
+import MedBookingConfig from "../BookingConfig/BookingConfig";
 import useLocalStorage from "../../Hooks/LocalStorage";
 import moment from "moment";
 

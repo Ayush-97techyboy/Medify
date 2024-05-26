@@ -1,16 +1,16 @@
 import { Box, Container, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import MedHeader from "../../components/header/MedHeader";
-import MedCardContainer from "../../components/card-container/MedCardContainer";
-import MedSearch from "../../components/search/MedSearch";
-import useGeneric from "../../hooks/genericHook";
+import MedHeader from "../../components/Header/Header";
+import MedCardContainer from "../../components/CardContainer/CardContainer";
+import MedSearch from "../../components/Search/Search";
+import useGeneric from "../../Hooks/GenericHooks";
 import { useSearchParams } from "react-router-dom";
 import { CheckCircleOutlineOutlined } from "@mui/icons-material";
-import { colors } from "../../theme/variables";
+import { colors } from "../../Themes/Variables";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
-import leftBanner from "../../assets/left_banner.png";
+import leftBanner from "../../Media/Banner.png";
 import { getHospitals } from "../../Services/SearchService";
-import MedHospitalDetails from "../../components/hospital-details/MedHospitalDetails";
+import MedHospitalDetails from "../../components/HospitalDetails/HospitalDetails";
 
 function Hospitals() {
   const { states } = useGeneric();

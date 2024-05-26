@@ -1,12 +1,12 @@
 import { Box, Container } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import MedHeader from "../../components/header/MedHeader";
-import MedCardContainer from "../../components/card-container/MedCardContainer";
+import MedHeader from "../../components/Header/Header";
+import MedCardContainer from "../../components/CardContainer/CardContainer";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
-import leftBanner from "../../assets/left_banner.png";
-import MedHospitalDetails from "../../components/hospital-details/MedHospitalDetails";
+import leftBanner from "../../Media/Banner.png";
+import MedHospitalDetails from "../../components/HospitalDetails/HospitalDetails";
 import useLocalStorage from "../../Hooks/LocalStorage";
-import MedHospitalSearch from "../../components/search/MedHospitalSearch";
+import MedHospitalSearch from "../../components/Search/HospitalSearch";
 
 function MyBookings() {
   const [localData] = useLocalStorage("bookings");

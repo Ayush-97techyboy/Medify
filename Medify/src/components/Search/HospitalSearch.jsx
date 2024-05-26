@@ -1,8 +1,8 @@
 import { Box, TextField } from "@mui/material";
 import React, { useState } from "react";
-import MedButton from "../button/MedButton";
+import MedButton from "../Button/Button";
 import { Search } from "@mui/icons-material";
-import { colors } from "../../theme/variables";
+import { colors } from "../../Themes/Variables";
 
 function MedHospitalSearch({ getValue, sx }) {
   const [searchText, setSearchText] = useState("");

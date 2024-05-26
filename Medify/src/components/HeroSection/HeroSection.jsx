@@ -1,8 +1,8 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
-import { colors } from "../../theme/variables";
-import MedButton from "../button/MedButton";
-import heroImage from "../../assets/hero_image.png";
+import { colors } from "../../Themes/Variables";
+import MedButton from "../Button/Button";
+import heroImage from "../../Media/Banner.png";
 
 function MedHeroSection() {
   return (

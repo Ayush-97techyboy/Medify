@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import { colors } from "../../theme/variables";
+import { colors } from "../../Themes/Variables";
 
 function MedButton({ onClick, startIcon, size, sx, children, ...attributes }) {
   return (

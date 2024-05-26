@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import MedSearch from "../search/MedSearch";
+import MedSearch from "../Search/Search";
 import { useNavigate } from "react-router-dom";
 
 function MedSearchCard({ states }) {
