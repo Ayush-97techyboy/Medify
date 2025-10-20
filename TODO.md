@@ -1,0 +1,2 @@
+- [x] Update specialisations array in Specialisation.jsx to match provided list with appropriate MUI icons
+- [x] Adjust Grid item props to xs={12} sm={6} md={3} for 4 per row
